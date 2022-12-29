@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+
+  <!-- loader for splash screen -->
+  <div id="loading"></div>
+
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">sk bank</a>
+        <button class="navbar-toggler" type="button"data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">Customers</a>
+            </li>
+          </ul>
+        </div>
+    </nav>h
+    <!-- navbar ends here  -->
+
+    <!-- here content starts here -->
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-12 col-sm-12 text-center" data-aos="fade-up">
+          <h1>Money Transaction</h1>
+          <p class="lead muted">Simple and Quick way To Transfer Money</p>
+          <p>Welcome To SK Bank</p>
+          <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-14062,resizemode-1,msid-92881873/industry/banking/finance/banking/bank-credit-grows-by-13-29-deposits-by-9-77.jpg" align:="right" width="500px">
+          <br>
+          <br>
+          <a class="get-started" href="./customers.html">Transfer Money</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- here content ends here -->
+
+
+
+
+    <!-- footer starts here -->
+    <div class="footer" style="margin-top: 25px;">
+   <div class="container" id="Foodie">
+
+<h1 style="color:rgb(32, 30, 29);font-family: Lucida Handwriting; margin-top: 55px;font-size: 30px;font-weight: 500;  box-shadow:2px 6px 18px rgba(66,57,238,0.3);
+" ><b>SK Bank</b></h1>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p style="color: rgb(192, 46, 46);font-size: 17px;margin-top: 30px;">SK Bank is a one-way payment<br>
+           to a person or organization which <br>
+           has given or exchanged no <br>
+           goods or services for it. <br>
+      </div>
+      <div class="col-sm-6">
+              <h3 style="color: rgb(205, 44, 44);color: rgb(17, 19, 19);">Address</h3>
+              <p style="color: rgb(205, 44, 44);font-size: 17px;">
+                USA,CALIFORNIA<br>
+                00070
+              </p>
+        <p style="color: rgb(200, 41, 41);font-size: 17px;">Email:abc12@gmail.com</p>
+          <a href="file:///C:/Users/lenovo/Documents/Basic%20Bank%20Management%20System/aboutus.html" class="btn btn-danger btn-lg">About SK Bank</a>
+
+         
+
+      </div>
+      
+    </div>
+
+    
+  </div>
+  
+</div>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
